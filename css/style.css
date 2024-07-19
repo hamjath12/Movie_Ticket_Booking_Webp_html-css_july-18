@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: red;
+    color: white;
+    /* margin: 10px; */
+    padding: 10px;
+    /* border: 2px solid black; */
+    text-align: center;
+    font-size: 20px;
+
+}
+.nav ul li{
+    list-style-type: none;
+}
+.nav ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* border: 2px solid black; */
+    /* margin-top: 5px; */
+    background-color: yellow;
+    /* padding: 10px; */
+}
+.nav ul li a{
+    float: left;
+    text-decoration: none;
+    display: block;
+    /* border: 2px solid black; */
+    color: blue;
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 50px;
+    
+}
+.flex-container{
+    display: flex;
+    /* border: 2px solid black; */
+    justify-content: center;
+    /* background-color: black; */
+ 
+}
+.flex-container > .box1{
+    /* border: 2px solid black; */
+    background-image: url(../image/img-1.avif);
+    /* color: white; */
+    width: 300px;
+    height: 500px;
+    margin-right: 10px;
+
+}
+
+
+.flex-container > .box2{
+    /* border:2px solid black; */
+    background-image: url(../image/img-2.avif);
+    /* color: white; */
+    width: 300px;
+    height: 500px;
+    margin-right: 10px;
+
+}
+.flex-container > .box3{
+    /* border: 2px solid black; */
+    background-image: url(../image/img-3.avif);
+    width: 300px;
+    height: 500px;
+    margin-right: 10px;
+
+}
+.flex-container > .box4 {
+    /* border: 2px solid black; */
+    background-image: url(../image/img-4.avif);
+    width: 300px;
+    height: 500px;
+    margin-right: 10px;
+
+}
+.section{
+    border: 2px solid black;
+    margin-top: 140px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50px;
+    margin-left: 500px;
+    margin-right: 500px;
+    background-color: blue;
+    color: white;
+}
+.section1{
+    /* background-color: yellow; */
+    height: 500px;
+    width: 70%;
+    margin-top: 30px;
+    /* border: 2px solid black; */
+    
+
+}
+.section1 table,th,td{
+    /* border: 2px solid black; */
+    font-size: 30px;
+    margin-left: 5px;
+    padding: 10px;
+    border-collapse: collapse;
+}
+.head-ads{
+    /* border: 2px solid black; */
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+    /* border-radius: 50px; */
+    /* background-color: blue; */
+    color: black;
+    margin-right: 1100px
+   
+}
+.footer{
+    background-color: red;
+    color: white;
+    /* margin: 10px; */
+    padding: 5px;
+    /* border: 2px solid black; */
+    text-align: center;
+    font-size: 15px;
+    margin-top: 200px;
+
+}
+.end{
+    /* border: 2px solid black; */
+    margin-top: 90px;
+    margin-left: 10px;
+}
